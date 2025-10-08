@@ -1,0 +1,15 @@
+{
+  "id" : "https://yokoarteaga.github.io/Autochrome-umbrella/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in yokoarteaga/Autochrome-umbrella project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://yokoarteaga.github.io/Autochrome-umbrella/manifests/umbrellaManifest",
+    "label" : {
+      "en" : [ "Autochrome Umbrella Manifest" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
