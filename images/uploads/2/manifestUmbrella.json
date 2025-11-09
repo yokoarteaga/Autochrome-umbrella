@@ -1,0 +1,816 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/cvneg6idnc-mhrsobul",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Autochrome Exhibition Manifest"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/t6wyv0a6pe-mhrsp823",
+      "type": "Canvas",
+      "height": 4095,
+      "width": 5631,
+      "label": {
+        "en": [
+          "Full frame"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/umbrella_full%2fumbrella_full.jpg/full/352,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 256,
+          "width": 352
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/t6wyv0a6pe-mhrsp823/annotation-page/9o063c220nm-mhrsp823",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/cvneg6idnc-mhrsobul/annotation/k0h5olgerz-mhrsp821",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/cvneg6idnc-mhrsobul/canvas/t6wyv0a6pe-mhrsp823",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/umbrella_full%2fumbrella_full.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4095,
+                "width": 5631,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/umbrella_full%2fumbrella_full.jpg",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 5631,
+                    "height": 4095,
+                    "sizes": [
+                      {
+                        "width": 176,
+                        "height": 128
+                      },
+                      {
+                        "width": 352,
+                        "height": 256
+                      },
+                      {
+                        "width": 704,
+                        "height": 512
+                      },
+                      {
+                        "width": 1408,
+                        "height": 1024
+                      },
+                      {
+                        "width": 2816,
+                        "height": 2048
+                      },
+                      {
+                        "width": 5631,
+                        "height": 4095
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 23058945,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/cgeereklako-mhrsqgz4",
+      "type": "Canvas",
+      "height": 9287,
+      "width": 19417,
+      "label": {
+        "en": [
+          "Current state"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/umbrella_originalImage%2fumbrella_originalImage.jp2/full/303,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 145,
+          "width": 303
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/cgeereklako-mhrsqgz4/annotation-page/zbkbbc5hg6-mhrsqgz4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/cvneg6idnc-mhrsobul/annotation/ja49vuv2nz-mhrsqgz3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/cvneg6idnc-mhrsobul/canvas/cgeereklako-mhrsqgz4",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/umbrella_originalImage%2fumbrella_originalImage.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 9287,
+                "width": 19417,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/umbrella_originalImage%2fumbrella_originalImage.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 19417,
+                    "height": 9287,
+                    "sizes": [
+                      {
+                        "width": 152,
+                        "height": 73
+                      },
+                      {
+                        "width": 303,
+                        "height": 145
+                      },
+                      {
+                        "width": 607,
+                        "height": 290
+                      },
+                      {
+                        "width": 1214,
+                        "height": 580
+                      },
+                      {
+                        "width": 2427,
+                        "height": 1161
+                      },
+                      {
+                        "width": 4854,
+                        "height": 2322
+                      },
+                      {
+                        "width": 9709,
+                        "height": 4644
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64,
+                          128
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 100000000,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/82xez663dud-mhrsrwi3",
+      "type": "Canvas",
+      "height": 9287,
+      "width": 19417,
+      "label": {
+        "en": [
+          "Faded mosaic"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/umbrella_fadedMosaic%2fumbrella_fadedMosaic.jp2/full/303,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 145,
+          "width": 303
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/82xez663dud-mhrsrwi3/annotation-page/07vwth2wjyui-mhrsrwi3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/cvneg6idnc-mhrsobul/annotation/arzvnnfm10h-mhrsrwi2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/cvneg6idnc-mhrsobul/canvas/82xez663dud-mhrsrwi3",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/umbrella_fadedMosaic%2fumbrella_fadedMosaic.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 9287,
+                "width": 19417,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/umbrella_fadedMosaic%2fumbrella_fadedMosaic.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 19417,
+                    "height": 9287,
+                    "sizes": [
+                      {
+                        "width": 152,
+                        "height": 73
+                      },
+                      {
+                        "width": 303,
+                        "height": 145
+                      },
+                      {
+                        "width": 607,
+                        "height": 290
+                      },
+                      {
+                        "width": 1214,
+                        "height": 580
+                      },
+                      {
+                        "width": 2427,
+                        "height": 1161
+                      },
+                      {
+                        "width": 4854,
+                        "height": 2322
+                      },
+                      {
+                        "width": 9709,
+                        "height": 4644
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64,
+                          128
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 100000000,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/sxb3vrbdpe-mhrssnk5",
+      "type": "Canvas",
+      "height": 9287,
+      "width": 19417,
+      "label": {
+        "en": [
+          "Silver emulsion"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/umbrella_residual%2fumbrella_residual.jp2/full/303,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 145,
+          "width": 303
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/sxb3vrbdpe-mhrssnk5/annotation-page/ped9vjzijva-mhrssnk5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/cvneg6idnc-mhrsobul/annotation/xqlnymkfag9-mhrssnk4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/cvneg6idnc-mhrsobul/canvas/sxb3vrbdpe-mhrssnk5",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/umbrella_residual%2fumbrella_residual.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 9287,
+                "width": 19417,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/umbrella_residual%2fumbrella_residual.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 19417,
+                    "height": 9287,
+                    "sizes": [
+                      {
+                        "width": 152,
+                        "height": 73
+                      },
+                      {
+                        "width": 303,
+                        "height": 145
+                      },
+                      {
+                        "width": 607,
+                        "height": 290
+                      },
+                      {
+                        "width": 1214,
+                        "height": 580
+                      },
+                      {
+                        "width": 2427,
+                        "height": 1161
+                      },
+                      {
+                        "width": 4854,
+                        "height": 2322
+                      },
+                      {
+                        "width": 9709,
+                        "height": 4644
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64,
+                          128
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 100000000,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/dee680fhi9i-mhrstd28",
+      "type": "Canvas",
+      "height": 9287,
+      "width": 19417,
+      "label": {
+        "en": [
+          "Restored mosaic"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/umbrella_restoredMosaic%2fumbrella_restoredMosaic.jp2/full/303,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 145,
+          "width": 303
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/dee680fhi9i-mhrstd28/annotation-page/e9wdqztklms-mhrstd28",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/cvneg6idnc-mhrsobul/annotation/xddy5hjg4l-mhrstd28",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/cvneg6idnc-mhrsobul/canvas/dee680fhi9i-mhrstd28",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/umbrella_restoredMosaic%2fumbrella_restoredMosaic.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 9287,
+                "width": 19417,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/umbrella_restoredMosaic%2fumbrella_restoredMosaic.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 19417,
+                    "height": 9287,
+                    "sizes": [
+                      {
+                        "width": 152,
+                        "height": 73
+                      },
+                      {
+                        "width": 303,
+                        "height": 145
+                      },
+                      {
+                        "width": 607,
+                        "height": 290
+                      },
+                      {
+                        "width": 1214,
+                        "height": 580
+                      },
+                      {
+                        "width": 2427,
+                        "height": 1161
+                      },
+                      {
+                        "width": 4854,
+                        "height": 2322
+                      },
+                      {
+                        "width": 9709,
+                        "height": 4644
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64,
+                          128
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 100000000,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/rdq1damdwxf-mhrsu5m8",
+      "type": "Canvas",
+      "height": 9287,
+      "width": 19417,
+      "label": {
+        "en": [
+          "Restored autochrome"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/umbrella_restored%2fumbrella_restored.jp2/full/303,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 145,
+          "width": 303
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/cvneg6idnc-mhrsobul/canvas/rdq1damdwxf-mhrsu5m8/annotation-page/rd12y2930m-mhrsu5m8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/cvneg6idnc-mhrsobul/annotation/hy1qxttxbmm-mhrsu5m7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/cvneg6idnc-mhrsobul/canvas/rdq1damdwxf-mhrsu5m8",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/umbrella_restored%2fumbrella_restored.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 9287,
+                "width": 19417,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/umbrella_restored%2fumbrella_restored.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 19417,
+                    "height": 9287,
+                    "sizes": [
+                      {
+                        "width": 152,
+                        "height": 73
+                      },
+                      {
+                        "width": 303,
+                        "height": 145
+                      },
+                      {
+                        "width": 607,
+                        "height": 290
+                      },
+                      {
+                        "width": 1214,
+                        "height": 580
+                      },
+                      {
+                        "width": 2427,
+                        "height": 1161
+                      },
+                      {
+                        "width": 4854,
+                        "height": 2322
+                      },
+                      {
+                        "width": 9709,
+                        "height": 4644
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64,
+                          128
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 100000000,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
