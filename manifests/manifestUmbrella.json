@@ -6,67 +6,70 @@
     "en" : [ "Autochrome Exhibition Manifest" ]
   },
   "items" : [ {
-    "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/t6wyv0a6pe-mhrsp823",
+    "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/rgjnl5gf4kp-mi8r1xtk",
     "type" : "Canvas",
-    "height" : 4095,
-    "width" : 5631,
+    "height" : 4678,
+    "width" : 6598,
     "label" : {
       "en" : [ "Full frame" ]
     },
     "thumbnail" : [ {
-      "id" : "https://iiif.archive.org/image/iiif/2/umbrella_full%2fumbrella_full.jpg/full/352,/0/default.jpg",
+      "id" : "https://iiif.archive.org/image/iiif/2/umbrella_full_lossy%2fumbrella_full_lossy.jp2/full/412,/0/default.jpg",
       "type" : "Image",
       "format" : "image/jpeg",
-      "height" : 256,
-      "width" : 352
+      "height" : 292,
+      "width" : 412
     } ],
     "items" : [ {
-      "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/t6wyv0a6pe-mhrsp823/annotation-page/9o063c220nm-mhrsp823",
+      "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/rgjnl5gf4kp-mi8r1xtk/annotation-page/vgmlei4hq9-mi8r1xtk",
       "type" : "AnnotationPage",
       "items" : [ {
-        "id" : "https://example.org/cvneg6idnc-mhrsobul/annotation/k0h5olgerz-mhrsp821",
+        "id" : "https://example.org/cvneg6idnc-mhrsobul/annotation/3beoyuze7iv-mi8r1xtj",
         "type" : "Annotation",
         "motivation" : "painting",
-        "target" : "https://example.org/cvneg6idnc-mhrsobul/canvas/t6wyv0a6pe-mhrsp823",
+        "target" : "https://example.org/cvneg6idnc-mhrsobul/canvas/rgjnl5gf4kp-mi8r1xtk",
         "body" : {
-          "id" : "https://iiif.archive.org/image/iiif/2/umbrella_full%2fumbrella_full.jpg/full/max/0/default.jpg",
+          "id" : "https://iiif.archive.org/image/iiif/2/umbrella_full_lossy%2fumbrella_full_lossy.jp2/full/max/0/default.jpg",
           "type" : "Image",
           "format" : "image/jpeg",
-          "height" : 4095,
-          "width" : 5631,
+          "height" : 4678,
+          "width" : 6598,
           "service" : [ {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archive.org/image/iiif/2/umbrella_full%2fumbrella_full.jpg",
+            "@id" : "https://iiif.archive.org/image/iiif/2/umbrella_full_lossy%2fumbrella_full_lossy.jp2",
             "protocol" : "http://iiif.io/api/image",
-            "width" : 5631,
-            "height" : 4095,
+            "width" : 6598,
+            "height" : 4678,
             "sizes" : [ {
-              "width" : 176,
-              "height" : 128
+              "width" : 103,
+              "height" : 73
             }, {
-              "width" : 352,
-              "height" : 256
+              "width" : 206,
+              "height" : 146
             }, {
-              "width" : 704,
-              "height" : 512
+              "width" : 412,
+              "height" : 292
             }, {
-              "width" : 1408,
-              "height" : 1024
+              "width" : 825,
+              "height" : 585
             }, {
-              "width" : 2816,
-              "height" : 2048
+              "width" : 1650,
+              "height" : 1170
             }, {
-              "width" : 5631,
-              "height" : 4095
+              "width" : 3299,
+              "height" : 2339
+            }, {
+              "width" : 6598,
+              "height" : 4678
             } ],
             "tiles" : [ {
               "width" : 512,
               "height" : 512,
-              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64 ]
             } ],
             "profile" : [ "http://iiif.io/api/image/2/level2.json", {
               "formats" : [ "tif", "jpg", "gif", "png" ],
-              "maxArea" : 23058945,
+              "maxArea" : 30865444,
               "qualities" : [ "bitonal", "default", "gray", "color" ],
               "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
             } ]
@@ -75,37 +78,37 @@
       } ]
     } ]
   }, {
-    "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/cgeereklako-mhrsqgz4",
+    "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/t8jhvte3swa-mi8uq3c5",
     "type" : "Canvas",
     "height" : 9287,
     "width" : 19417,
     "label" : {
-      "en" : [ "Current state" ]
+      "en" : [ "Original autochrome" ]
     },
     "thumbnail" : [ {
-      "id" : "https://iiif.archive.org/image/iiif/2/umbrella_originalImage%2fumbrella_originalImage.jp2/full/303,/0/default.jpg",
+      "id" : "https://iiif.archive.org/image/iiif/2/umbrella_originalImage_sRGB%2fumbrella_originalImage_sRGB.jp2/full/303,/0/default.jpg",
       "type" : "Image",
       "format" : "image/jpeg",
       "height" : 145,
       "width" : 303
     } ],
     "items" : [ {
-      "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/cgeereklako-mhrsqgz4/annotation-page/zbkbbc5hg6-mhrsqgz4",
+      "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/t8jhvte3swa-mi8uq3c5/annotation-page/nqc3z8a3ehd-mi8uq3c5",
       "type" : "AnnotationPage",
       "items" : [ {
-        "id" : "https://example.org/cvneg6idnc-mhrsobul/annotation/ja49vuv2nz-mhrsqgz3",
+        "id" : "https://example.org/cvneg6idnc-mhrsobul/annotation/qneo6je5ahc-mi8uq3c4",
         "type" : "Annotation",
         "motivation" : "painting",
-        "target" : "https://example.org/cvneg6idnc-mhrsobul/canvas/cgeereklako-mhrsqgz4",
+        "target" : "https://example.org/cvneg6idnc-mhrsobul/canvas/t8jhvte3swa-mi8uq3c5",
         "body" : {
-          "id" : "https://iiif.archive.org/image/iiif/2/umbrella_originalImage%2fumbrella_originalImage.jp2/full/max/0/default.jpg",
+          "id" : "https://iiif.archive.org/image/iiif/2/umbrella_originalImage_sRGB%2fumbrella_originalImage_sRGB.jp2/full/max/0/default.jpg",
           "type" : "Image",
           "format" : "image/jpeg",
           "height" : 9287,
           "width" : 19417,
           "service" : [ {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archive.org/image/iiif/2/umbrella_originalImage%2fumbrella_originalImage.jp2",
+            "@id" : "https://iiif.archive.org/image/iiif/2/umbrella_originalImage_sRGB%2fumbrella_originalImage_sRGB.jp2",
             "protocol" : "http://iiif.io/api/image",
             "width" : 19417,
             "height" : 9287,
@@ -137,7 +140,7 @@
               "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64, 128 ]
             } ],
             "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "formats" : [ "jpg", "tif", "gif", "png" ],
               "maxArea" : 100000000,
               "qualities" : [ "bitonal", "default", "gray", "color" ],
               "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
@@ -291,12 +294,12 @@
       } ]
     } ]
   }, {
-    "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/dee680fhi9i-mhrstd28",
+    "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/it1mr60cawd-mi8w2qsu",
     "type" : "Canvas",
     "height" : 9287,
     "width" : 19417,
     "label" : {
-      "en" : [ "Restored mosaic" ]
+      "en" : [ "Unfaded mosaic" ]
     },
     "thumbnail" : [ {
       "id" : "https://iiif.archive.org/image/iiif/2/umbrella_restoredMosaic%2fumbrella_restoredMosaic.jp2/full/303,/0/default.jpg",
@@ -306,13 +309,13 @@
       "width" : 303
     } ],
     "items" : [ {
-      "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/dee680fhi9i-mhrstd28/annotation-page/e9wdqztklms-mhrstd28",
+      "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/it1mr60cawd-mi8w2qsu/annotation-page/upkwqwbmzcs-mi8w2qsu",
       "type" : "AnnotationPage",
       "items" : [ {
-        "id" : "https://example.org/cvneg6idnc-mhrsobul/annotation/xddy5hjg4l-mhrstd28",
+        "id" : "https://example.org/cvneg6idnc-mhrsobul/annotation/6mlsmygjwxa-mi8w2qsu",
         "type" : "Annotation",
         "motivation" : "painting",
-        "target" : "https://example.org/cvneg6idnc-mhrsobul/canvas/dee680fhi9i-mhrstd28",
+        "target" : "https://example.org/cvneg6idnc-mhrsobul/canvas/it1mr60cawd-mi8w2qsu",
         "body" : {
           "id" : "https://iiif.archive.org/image/iiif/2/umbrella_restoredMosaic%2fumbrella_restoredMosaic.jp2/full/max/0/default.jpg",
           "type" : "Image",
@@ -363,7 +366,7 @@
       } ]
     } ]
   }, {
-    "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/rdq1damdwxf-mhrsu5m8",
+    "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/m3415jok25q-mi8vxulb",
     "type" : "Canvas",
     "height" : 9287,
     "width" : 19417,
@@ -371,29 +374,29 @@
       "en" : [ "Restored autochrome" ]
     },
     "thumbnail" : [ {
-      "id" : "https://iiif.archive.org/image/iiif/2/umbrella_restored%2fumbrella_restored.jp2/full/303,/0/default.jpg",
+      "id" : "https://iiif.archive.org/image/iiif/2/umbrella_restored_sRGB%2fumbrella_restored_sRGB.jp2/full/303,/0/default.jpg",
       "type" : "Image",
       "format" : "image/jpeg",
       "height" : 145,
       "width" : 303
     } ],
     "items" : [ {
-      "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/rdq1damdwxf-mhrsu5m8/annotation-page/rd12y2930m-mhrsu5m8",
+      "id" : "https://example.org/cvneg6idnc-mhrsobul/canvas/m3415jok25q-mi8vxulb/annotation-page/j1uxk066yjp-mi8vxulb",
       "type" : "AnnotationPage",
       "items" : [ {
-        "id" : "https://example.org/cvneg6idnc-mhrsobul/annotation/hy1qxttxbmm-mhrsu5m7",
+        "id" : "https://example.org/cvneg6idnc-mhrsobul/annotation/205rxw8utce-mi8vxulb",
         "type" : "Annotation",
         "motivation" : "painting",
-        "target" : "https://example.org/cvneg6idnc-mhrsobul/canvas/rdq1damdwxf-mhrsu5m8",
+        "target" : "https://example.org/cvneg6idnc-mhrsobul/canvas/m3415jok25q-mi8vxulb",
         "body" : {
-          "id" : "https://iiif.archive.org/image/iiif/2/umbrella_restored%2fumbrella_restored.jp2/full/max/0/default.jpg",
+          "id" : "https://iiif.archive.org/image/iiif/2/umbrella_restored_sRGB%2fumbrella_restored_sRGB.jp2/full/max/0/default.jpg",
           "type" : "Image",
           "format" : "image/jpeg",
           "height" : 9287,
           "width" : 19417,
           "service" : [ {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archive.org/image/iiif/2/umbrella_restored%2fumbrella_restored.jp2",
+            "@id" : "https://iiif.archive.org/image/iiif/2/umbrella_restored_sRGB%2fumbrella_restored_sRGB.jp2",
             "protocol" : "http://iiif.io/api/image",
             "width" : 19417,
             "height" : 9287,
