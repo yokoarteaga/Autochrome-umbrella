@@ -29,5 +29,11 @@
       "en" : [ "Autochrome Exhibition Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://yokoarteaga.github.io/Autochrome-umbrella/manifests/finalmanifest",
+    "label" : {
+      "en" : [ "Autochrome Exhibition Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
